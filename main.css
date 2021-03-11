@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(rgb(241, 234, 241), black);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    background-color: white;
+}
+
+.allinea{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(239, 186, 84);
+    height: 13vh;
+    display: flex;
+    align-items:flex-end;
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+main{
+    height: 65vh;
+}
+
+ main > span{
+     font-size: 30px;
+     color: rgb(147, 124, 121);
+ }
+
+ .products{
+    font-size: 22px;
+ }
+
+ ul{
+     list-style-type: none;
+     display: grid;
+     grid-template-columns: auto auto; 
+     grid-row-gap: 25px ; 
+     width: 100%;
+     padding: 30px 0 40px 0;
+
+ }
+
+ 
+li{
+    display: flex;
+    align-items: center;
+}
+
+li img{
+    width: 45px;
+    margin-right: 20px;
+}
+
+.text-label{
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+ul input{
+   width: 20px;
+   height: 20px;
+}
+
+main label{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(67, 71, 99);
+}
+
+#burger-coupon{
+    border:none;
+    margin-left: 20px;
+    font-weight: 300;
+    height: 30px;
+}
+
+#calculate{
+    text-align: center;
+    
+}
+
+.button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.button-container button{
+    padding:13px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    background: rgb(239, 186, 84);
+    border: none;
+}
+
+footer{
+    background-color: rgb(188, 59, 89);
+    height: 15.25vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+/* da rivedere altezza */
